@@ -1,0 +1,33 @@
+{
+  "name": "pokemon-go-node-slack-notifier",
+  "version": "0.9.9",
+  "dependencies": {
+    "request": "*",
+    "body-parser": "^1.15.2",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "express": "^4.12.3",
+    "pokemon-go-node-api": "git+https://github.com/Armax/Pokemon-GO-node-api.git"
+  },
+  "description": "To get notifications sent to Slack for Pokemon nearby a specified location. Works great for an office or school!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BasouKazuma/pokemon-go-node-slack-notifier.git"
+  },
+  "keywords": [
+    "pokemon",
+    "go",
+    "slack",
+    "node"
+  ],
+  "author": "BasouKazuma <basoukazuma@gmail.com> (https://github.com/BasouKazuma)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BasouKazuma/pokemon-go-node-slack-notifier/issues"
+  },
+  "homepage": "https://github.com/BasouKazuma/pokemon-go-node-slack-notifier#readme"
+}

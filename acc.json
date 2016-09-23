@@ -1,0 +1,83 @@
+[{
+    "username": "q7w8e9r77",
+    "password": "123456789",
+    "provider": "ptc",
+    "slack_request_url": "https://hooks.slack.com/services/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",
+    "location": {
+        "type": "coords",
+        "coords": {
+            "latitude": 13.722248,
+            "longitude": 100.529177,
+            "altitude" : 1
+        }
+    }
+}
+,{
+    "username": "q7w8e9r777",
+    "password": "123456789",
+    "provider": "ptc",
+    "slack_request_url": "https://hooks.slack.com/services/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",
+    "location": {
+        "type": "coords",
+        "coords": {
+            "latitude": 13.722248,
+            "longitude": 100.529177,
+            "altitude" : 1
+        }
+    }
+}
+,{
+    "username": "q7w8e9r77777",
+    "password": "123456789",
+    "provider": "ptc",
+    "slack_request_url": "https://hooks.slack.com/services/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",
+    "location": {
+        "type": "coords",
+        "coords": {
+            "latitude": 13.722248,
+            "longitude": 100.529177,
+            "altitude" : 1
+        }
+    }
+},{
+    "username": "q7w8e9r777777",
+    "password": "123456789",
+    "provider": "ptc",
+    "slack_request_url": "https://hooks.slack.com/services/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",
+    "location": {
+        "type": "coords",
+        "coords": {
+            "latitude": 13.722248,
+            "longitude": 100.529177,
+            "altitude" : 1
+        }
+    }
+},
+{
+    "username": "q7w8e9r7777777",
+    "password": "123456789",
+    "provider": "ptc",
+    "slack_request_url": "https://hooks.slack.com/services/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",
+    "location": {
+        "type": "coords",
+        "coords": {
+            "latitude": 13.722248,
+            "longitude": 100.529177,
+            "altitude" : 1
+        }
+    }
+},{
+    "username": "q7w8e9r7777",
+    "password": "123456789",
+    "provider": "ptc",
+    "slack_request_url": "https://hooks.slack.com/services/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",
+    "location": {
+        "type": "coords",
+        "coords": {
+            "latitude": 13.722248,
+            "longitude": 100.529177,
+            "altitude" : 1
+        }
+    }
+}
+]

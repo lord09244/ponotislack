@@ -1,0 +1,14 @@
+{
+    "username": "pmonmon88@gmail.com",
+    "password": "P123456p",
+    "provider": "google",
+    "slack_request_url": "https://hooks.slack.com/services/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",
+    "location": {
+        "type": "coords",
+        "coords": {
+            "latitude": 13.717016,
+            "longitude": 100.526373,
+            "altitude" : 1
+        }
+    }
+}
