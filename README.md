@@ -41,38 +41,7 @@ window.sendPayloadToWeb = (type, key, payload, reqCode) => {
       this.stopPro();
       if (type == "IRX") {
         if (key == "USER_DATA") {
-          var dataArr = payload.split(",");
-          if (dataArr[0] == "true") {
-            var userObject = {
-              id: dataArr[1].split("U+002C").join(","),
-              status: dataArr[2].split("U+002C").join(","),
-              balance: dataArr[3].split("U+002C").join(","),
-              firstName: dataArr[4].split("U+002C").join(","),
-              lastName: dataArr[5].split("U+002C").join(","),
-              phoneNumber: dataArr[6].split("U+002C").join(","),
-              gender: dataArr[7].split("U+002C").join(","),
-              jobTitle: dataArr[8].split("U+002C").join(","),
-              company: dataArr[9].split("U+002C").join(","),
-              nationality: dataArr[10].split("U+002C").join(","),
-              dateOfBirth: dataArr[11].split("U+002C").join(","),
-              score: dataArr[12].split("/"),
-              lastTimeCheck: dataArr[13].split("U+002C").join(","),
-              email: dataArr[14].split("U+002C").join(",")
-            };
-            this.$store.commit("addUserInfo", userObject);
-            // this.$router.push("/luckydraw/start");
-            if (userObject.lastName == "1") {
-              this.$swal({
-                title:
-                  "<div style='font-size:14pt; font-weight:normal;margin-top:10px;'  >You have already claimed your gift. For complete Citi x Grab experience, apply for a Citi Grab Card today!" +
-                  "<div style='margin-top:5px;font-weight:bold;' >" +
-                  " </div></div>",
-                text: "",
-                //timer: 8000,
-                showCloseButton: true
-              }).then(() => {
-                this.$router.push("/");
-              });
+          // do someting
             } else {
               // do someting
               } else {
