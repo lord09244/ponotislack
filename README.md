@@ -14,14 +14,14 @@
 
 ---
 
-### Main Fucntion :)
+## Main Fucntion :)
 
 - __[sendPayloadToAndroid](#sendPayloadToAndroid)__ - Call from WebUi for send command to android
 - __[sendPayloadToWeb](#sendPayloadToWeb)__ - Callback on webui for receive payload when command is finish android call this function
 
 ---
 
-## sendPayloadToAndroid
+### sendPayloadToAndroid
 
 > ### window.zapy.sendPayloadToAndroid(String type, String key, String payload,String reqCode);
 >
@@ -76,7 +76,7 @@ window.sendPayloadToWeb = (type, key, payload, reqCode) => {
     };
 ```
 
-## sendPayloadToWeb
+### sendPayloadToWeb
 
 > ### window.sendPayloadToWeb(String type, String key, String payload,String reqCode);
 >
