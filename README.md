@@ -25,14 +25,14 @@
 
 > ### window.zapy.sendPayloadToAndroid(String type, String key, String payload,String reqCode);
 >
-> > ### Parameters
-> >
-> >| Variable | Description |
-> >| ------ | ----------- |
-> >| type   | path to data files to supply the data that will be passed into templates. |
-> >| key | engine to be used for processing templates. Handlebars is the default. |
-> >| payload    | extension to be used for dest files. |
-> >| reqCode    | extension to be used for dest files. |
+> **Parameters**
+>
+>| Variable | Description |
+>| ------ | ----------- |
+>| type   | path to data files to supply the data that will be passed into templates. |
+>| key | engine to be used for processing templates. Handlebars is the default. |
+>| payload    | extension to be used for dest files. |
+>| reqCode    | extension to be used for dest files. |
 Syntax Example
 
 ``` js
@@ -111,14 +111,14 @@ window.sendPayloadToWeb = (type, key, payload, reqCode) => {
 
 > ### window.sendPayloadToWeb(String type, String key, String payload,String reqCode);
 >
-> > ### Parameters
-> >
-> >| Variable | Description |
-> >| ------ | ----------- |
-> >| type   | path to data files to supply the data that will be passed into templates. |
-> >| key | engine to be used for processing templates. Handlebars is the default. |
-> >| payload    | extension to be used for dest files. |
-> >| reqCode    | extension to be used for dest files. |
+> **Parameters**
+>
+>| Variable | Description |
+>| ------ | ----------- |
+>| type   | path to data files to supply the data that will be passed into templates. |
+>| key | engine to be used for processing templates. Handlebars is the default. |
+>| payload    | extension to be used for dest files. |
+>| reqCode    | extension to be used for dest files. |
 Syntax Example
 
 ```js
