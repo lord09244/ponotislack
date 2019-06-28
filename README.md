@@ -25,6 +25,21 @@ $$$$$$$$\ $$ |  $$ |$$ |          $$ |          $$ |      $$ |  $$ | $$$$$$  |\$
 
 ---
 
+## Mode :)
+
+::: warning
+*Now zapy we have 5 mode but in timeline 125478 mode*
+:::
+
+| MODE | Description |
+| ------ | ----------- |
+| Ent   | .... |
+| Regis | .... |
+| Game    | .... |
+| Cashless    | .... |
+| Redemption Point    | .... |
+---
+
 ## Main Fucntion :)
 
 - __[sendPayloadToAndroid](#sendPayloadToAndroid)__ - Call from WebUi for send command to android
