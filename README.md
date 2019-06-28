@@ -59,7 +59,7 @@ Now zapy we have 5 mode but in timeline 125478 mode
 >| Variable | Description |
 >| ------ | ----------- |
 >| type   | .... |
->| key | ... .... |
+>| key | ..... |
 >| payload    | ..... |
 >| reqCode    | ...... |
 Syntax Example
@@ -171,5 +171,13 @@ function writeNfc(payload) {
 
 >|          | KEY      | PAYLOAD | FLOW    |    MODE    |
 >|----------|----------|---------|---------|------------|
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
 >| REQUEST  | CHECK_IN | READ    | url_img |            |
 >| RESPONSE | CHECK_IN | READ    | url_img |            |
