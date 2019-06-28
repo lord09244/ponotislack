@@ -58,10 +58,10 @@ Now zapy we have 5 mode but in timeline 125478 mode
 >
 >| Variable | Description |
 >| ------ | ----------- |
->| type   | path to data files to supply the data that will be passed into templates. |
->| key | engine to be used for processing templates. Handlebars is the default. |
->| payload    | extension to be used for dest files. |
->| reqCode    | extension to be used for dest files. |
+>| type   | .... |
+>| key | ... .... |
+>| payload    | ..... |
+>| reqCode    | ...... |
 Syntax Example
 
 ``` js
