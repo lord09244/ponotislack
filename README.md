@@ -9,7 +9,6 @@ $$$$$$$$\ $$ |  $$ |$$ |          $$ |          $$ |      $$ |  $$ | $$$$$$  |\$
 \________|\__|  \__|\__|          \__|          \__|      \__|  \__| \______/  \______/ \________| \______/    \__|   
 ```
 
-
 # ZAPY WebUI API (JS)
 
 ## 1. ZAPY WebUi Architecture :)
@@ -115,7 +114,44 @@ function writeNfc(payload) {
 
 #### "IRX"
 
->|          | KEY      | PAYLOAD | FLOW    |
->|----------|----------|---------|---------|
->| REQUEST  | CHECK_IN | READ    | url_img |
->| RESPONSE | CHECK_IN | READ    | url_img |
+>|          | KEY      | PAYLOAD | FLOW    |    MODE    |
+>|----------|----------|---------|---------|------------|
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
+
+#### "GET"
+
+>|          | KEY      | PAYLOAD | FLOW    |    MODE    |
+>|----------|----------|---------|---------|------------|
+>| REQUEST  | CHECK_IN | READ    | url_img |            |
+>| RESPONSE | CHECK_IN | READ    | url_img |            |
